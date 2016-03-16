@@ -34,6 +34,7 @@ Symbol (new in ECMAScript 6)
 -> Verbosity?
 
 -> Immersion
+
 ────────────────────────────────────────────────────────────────────
 
 ┉	Functional programs contain no assignment statements, so variables, once given a value, never change.
@@ -47,6 +48,7 @@ Symbol (new in ECMAScript 6)
 specific and consistent return value for any given input, and no side effects on external variable states.
 
 -> easy to test
+
 ────────────────────────────────────────────────────────────────────
 
 ┉	A function call can have no effect other than to compute its result.

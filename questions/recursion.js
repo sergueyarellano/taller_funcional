@@ -7,18 +7,15 @@
 */
 
 function isEven(n) {
-	return n === 0 ?
-		true :
-		!isEven(n-1);
+	return;
 }
 
-if (true) {
 
-	console.log('isEven(1)', isEven(1));
-	console.log('isEven(24)', isEven(24));
-	console.log('isEven(11)', isEven(11));
-	console.log('----------------------');
-}
+
+// console.log('isEven(1)', isEven(1));
+// console.log('isEven(24)', isEven(24));
+// console.log('isEven(11)', isEven(11));
+// console.log('----------------------');
 
 /*
 ┌───────────────────────────────────────────────────┐
@@ -31,20 +28,14 @@ For numbers which are multiples of both three and five print “FizzBuzz”."
 */
 
 function fizzBuzz (n) {
-	return fizzBuzzAux(n, 1);
+	return;
 }
 
-function fizzBuzzAux(n, p) {
-	return p > n ?
-		'' :
-		((p % 5 === 0 && p % 3 === 0 && 'FizzBuzz') || (p % 5 === 0 && 'Buzz') || (p % 3 === 0 && 'Fizz') || p) + '\n' + fizzBuzzAux(n, p + 1);
-}
 
-if (false) {	
-	console.log('fizzBuzz(30) \n' + fizzBuzz(30));
-	console.log('----------------------');
+// console.log('fizzBuzz(30) \n' + fizzBuzz(30));
+// console.log('----------------------');
 
-}
+
 
 /*
 ┌───────────────────────────┐
@@ -55,9 +46,7 @@ if (false) {
 */
 
 function fibonacci(n) {
-	return n < 2 ?
-		n :
-		fibonacci(n - 1) + fibonacci(n - 2);
+	return;
 }
 
 // console.log(fibonacci(40));
@@ -65,16 +54,7 @@ function fibonacci(n) {
 // Optimization with memoization
 
 var fibonacciMemo = function fibonacciMemo() {
-	var memo = [0, 1];
-	var fib = function fib (n) {
-		var result = memo[n];
-		if (typeof result !== 'number') {
-			result = fib(n -1) + fib(n - 2);
-			memo[n] = result;
-		}
-		return result;
-	}
-	return fib;
+	return;
 }();
 
 // console.log(fibonacci(500))
@@ -90,16 +70,9 @@ If the string is 'abc' the output should be 'abc'
 */
 
 function compress (s) {
-	return compressAux(s, 0, 1);
+	return;
 }
 
-function compressAux(s, p, ac) {
-	return p > s.length -1 ?
-		'' :
-		s.charAt(p) === s.charAt(p + 1) ?
-			compressAux(s, p +1, ac + 1) :
-			s.charAt(p) + (ac !== 1 ? ac : '') + compressAux(s, p + 1, 1);
-}
 
 // console.log(compress('aabbbc'))
 
@@ -110,12 +83,7 @@ function compressAux(s, p, ac) {
 └────────────┘
 */
 function reduce (v, fn, o) {
-	return reduceAux(v, fn, o, 0);
+	return;
 }
 
-function reduceAux(v, fn, o, p) {
-	return p > v.length -1 ?
-		o :
-		reduceAux(v, fn, fn(o, v[p], p, v), p + 1);
-}
 

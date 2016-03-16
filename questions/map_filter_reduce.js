@@ -108,3 +108,42 @@ function reduceMe() {
 }
 
 // console.log(reduceMe())
+
+/*
+Reduce 
+
+Return an array of {id, total} pairs, where total is the score * ratio in each element
+*/
+function reduceMeBis () {
+	var arr = [
+		{
+			id: 'foo',
+			score: 3,
+			ratio: 0.2
+		},
+		{
+			id: 'bar',
+			score: 6,
+			ratio: 0.3
+		},
+		{
+			id: 'cat',
+			score: 2,
+			ratio: 0.1
+		},
+		{
+			id: 'chown',
+			score: 8,
+			ratio: 0.4
+		},
+		{
+			id: 'lsof',
+			score: 1,
+			ratio: 0.5
+		}
+	];
+
+	return ;
+}
+
+// console.log(reduceMeBis())

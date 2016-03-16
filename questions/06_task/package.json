@@ -1,0 +1,13 @@
+{
+  "name": "task003",
+  "version": "1.0.0",
+  "description": "",
+  "main": "code.js",
+  "keywords": [],
+  "author": "Iván Corrales Solera <developer@wesovi.com> (http://www.wesovi.com)",
+  "license": "ISC",
+  "dependencies":{
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}

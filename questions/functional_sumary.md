@@ -1,4 +1,3 @@
-/*
 Functional programming
 ----------------------
 ┉	Functional programming is so called because its fundamental operation is
@@ -29,6 +28,7 @@ String
 Symbol (new in ECMAScript 6)
 
 -> Verbosity?
+-> Immersion
 ─────────────────────────────────────────────────────────────────────────────────
 
 ┉	Functional programs contain no assignment statements, so variables, once given a value, never change.
@@ -71,4 +71,4 @@ the programming language"
 
 Source:
 http://worrydream.com/refs/Hughes-WhyFunctionalProgrammingMatters.pdf (John Hughes, ed. D. Turner, Addison-Wesley, 1990, pp 17–42.)
-*/
+
